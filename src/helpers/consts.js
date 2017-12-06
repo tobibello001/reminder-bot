@@ -29,7 +29,7 @@ exports.Messages = {
     GREETINGS: ['Sup?', 'Hi there!', 'Hello!', 'Hey.'],
     GREETING_RESPONSE: '%s Try something like: %s, or type "help".',
     MULTIPLE_CITIES_FOUND: 'I found a number of cities named %s.',
-    REMINDER: 'Hey, you asked me to %s',
+    REMINDER: 'Hey, you asked me to remind you to %s',
     REMINDER_DELETED: 'Reminder deleted.',
     REMINDER_ALREADY_DELETED: 'Oops, looks like that reminder was already deleted.',
     NO_REMINDERS: 'You do not have any active reminders. To create one, say something like: "%s"',
