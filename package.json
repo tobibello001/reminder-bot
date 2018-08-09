@@ -8,7 +8,7 @@
     "url": "https://github.com/sebsylvester/reminder-bot.git"
   },
   "scripts": {
-    "start": "node ./lib/app.js",
+    "start": "nodemon ./lib/app.js",
     "build:watch": "babel src --out-dir lib --source-maps --watch",
     "build": "babel src --out-dir lib --source-maps",
     "test": "nyc --reporter=lcov mocha",
@@ -29,14 +29,15 @@
   "bugs": "https://github.com/sebsylvester/reminder-bot/issues",
   "homepage": "https://github.com/sebsylvester/reminder-bot",
   "dependencies": {
-    "@google/maps": "^0.4.5",
+    "@google/maps": "^0.4.6",
     "botbuilder": "^3.8.1",
+    "botbuilder-storage": "^1.0.2",
     "botbuilder-wit": "^2.0.6",
     "chance": "^1.0.8",
+    "dotenv": "^6.0.0",
     "moment-timezone": "^0.5.13",
-    "mongoose": "^4.9.8",
-    "node-wit": "^4.2.0",
-    "restify": "^4.3.0"
+    "mongoose": "^5.2.7",
+    "restify": "^7.2.1"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
